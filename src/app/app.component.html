@@ -1,0 +1,22 @@
+<hello name="{{ name }}"></hello>
+<p>
+  {{'Start'|password}} editing to see some magic happen :)
+</p>
+<p>
+  USER_ID: {{data.USER_ID}}
+</p>
+<p>
+  PASSWORD: {{data.PASSWORD | password}}
+</p>
+<p>
+  PASSWORD: {{data.PASSWORD | password:'*'}}
+</p>
+<p>
+  PASSWORD: {{data.PASSWORD | password:'+'}}
+</p>
+<p>
+  PASSWORD: {{data.PASSWORD | password:'-'}}
+</p>
+<p>
+  PASSWORD: {{data.PASSWORD | password:'@'}}
+</p>
